@@ -72,7 +72,10 @@ extension View {
 
 struct DetailScreen_Previews: PreviewProvider {
     static var previews: some View {
-        DetailScreen()
+        Group {
+            DetailScreen()
+            DetailScreen()
+        }
     }
 }
 
