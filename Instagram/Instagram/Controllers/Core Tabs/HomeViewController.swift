@@ -14,18 +14,12 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         handleNotAuthenticated()
         
-        do {
-            try Auth.auth().signOut()
-        } catch {
-            print("failed signout")
-        }
-        
     }
     
     private func handleNotAuthenticated() {
         // Check auth status
         if Auth.auth().currentUser == nil {
-            // Show loagi in
+            // Show log in
             let loginVc = LoginViewController()
             loginVc.modalPresentationStyle = .fullScreen
             present(loginVc, animated: false)

@@ -162,7 +162,8 @@ class LoginViewController: UIViewController {
         passwordField.resignFirstResponder()
         usernameEmailField.resignFirstResponder()
         
-        guard let usernameEmail = usernameEmailField.text, !usernameEmail.isEmpty, let password = passwordField.text, !password.isEmpty, password.count > 8 else {
+        guard let usernameEmail = usernameEmailField.text, !usernameEmail.isEmpty,
+              let password = passwordField.text, !password.isEmpty, password.count >= 8 else {
             return
         }
         
@@ -182,11 +183,13 @@ class LoginViewController: UIViewController {
             if success {
                 // user logged in
                 self.dismiss(animated: true, completion: nil)
+                print("success")
             } else {
                 // error occurred
                 let alert = UIAlertController(title: "Log In Error", message: "We were unable to log you in.", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
                 self.present(alert, animated: true)
+                print("failed")
                 }
             }
         }
