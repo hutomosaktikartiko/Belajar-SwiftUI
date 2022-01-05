@@ -13,6 +13,7 @@
 		B61908F3278406E3009A8495 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61908F2278406E3009A8495 /* ProfileInfoHeaderCollectionReusableView.swift */; };
 		B61908F527840720009A8495 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61908F427840720009A8495 /* ProfileTabsCollectionReusableView.swift */; };
 		B61B346F277D4E8600BE6503 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B346E277D4E8600BE6503 /* Extensions.swift */; };
+		B63AC7A62785AADA00FED207 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63AC7A52785AADA00FED207 /* Models.swift */; };
 		B66C46672782AAFC000640AD /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C46662782AAFC000640AD /* IGFeedPostTableViewCell.swift */; };
 		B66C46692782AEB4000640AD /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C46682782AEB4000640AD /* IGFeedPostHeaderTableViewCell.swift */; };
 		B66C466B2782AED0000640AD /* IGFeedPostActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C466A2782AED0000640AD /* IGFeedPostActionTableViewCell.swift */; };
@@ -51,6 +52,7 @@
 		B61908F2278406E3009A8495 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		B61908F427840720009A8495 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
 		B61B346E277D4E8600BE6503 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B63AC7A52785AADA00FED207 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		B66C46662782AAFC000640AD /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
 		B66C46682782AEB4000640AD /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		B66C466A2782AED0000640AD /* IGFeedPostActionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionTableViewCell.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 		B68B5589277BDA590021484C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B63AC7A52785AADA00FED207 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				B66C46692782AEB4000640AD /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				B68B55AB277BDD540021484C /* PostEditorViewController.swift in Sources */,
 				B690ECB8277BF5140019C964 /* StorageManager.swift in Sources */,
+				B63AC7A62785AADA00FED207 /* Models.swift in Sources */,
 				B61908EB2783FA08009A8495 /* FormTableViewCell.swift in Sources */,
 				B66C466B2782AED0000640AD /* IGFeedPostActionTableViewCell.swift in Sources */,
 				B61908F527840720009A8495 /* ProfileTabsCollectionReusableView.swift in Sources */,
